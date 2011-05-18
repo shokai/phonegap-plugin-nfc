@@ -1,0 +1,8 @@
+*.log
+*~
+.DS_Store
+db/*
+db*
+bin/*
+local.properties
+proguard.cfg
