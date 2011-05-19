@@ -19,7 +19,7 @@ public class NFC extends DroidGap
     {
         super.onCreate(savedInstanceState);
         String tag = parse_tag(getIntent());
-        super.loadUrl("file:///android_asset/www/index.html?"+tag);
+        super.loadUrl("file:///android_asset/www/index.html?nfc_tag="+tag);
     }
 
     String parse_tag(Intent intent) {

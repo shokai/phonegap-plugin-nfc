@@ -1,0 +1,15 @@
+!!! XML
+%html
+  %head
+    - @title = 'NFC-Tag Sample'
+    %title= @title
+    %script{:type => 'text/javascript', :src => "./phonegap.js"}
+    %script{:type => 'text/javascript', :src => "./jquery.js"}
+    %script{:type => 'text/javascript', :src => "./main.js"}
+    %script{:type => 'text/javascript', :src => './nfc_tag.js'}
+    %script{:type => 'text/javascript', :src => 'http://maps.google.com/maps/api/js?sensor=true'}
+  %body
+    %h1= @title
+    %div#nfc_tag
+      tag : 
+    %div{:id => 'map', :style => 'width: 320px; height: 356px;'}
