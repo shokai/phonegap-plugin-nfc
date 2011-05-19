@@ -1,4 +1,12 @@
 
-$(function(){
-    $('#nfc_tag').append(nfc_tag.id).css('font-size','40pt');
-});
+
+document.addEventListener('deviceready', function(){
+    window.plugins.nfc.id(
+        function(tag){
+            $('#nfc_tag').append(tag.id).css('font-size','40pt');
+        },
+        function(e){
+            log(e);
+        });
+    
+}, true);
