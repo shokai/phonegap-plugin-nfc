@@ -1,5 +1,5 @@
 
-package com.phonegap.NFC;
+package com.phonegap.NFCPluginSample;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import com.phonegap.*;
 import android.content.Intent;
 
 
-public class NFC extends DroidGap
+public class NFCPluginSample extends DroidGap
 {
     @Override
     public void onCreate(Bundle savedInstanceState)

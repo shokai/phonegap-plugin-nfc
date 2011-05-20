@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.phonegap.NFC;
+package com.phonegap.NFCPluginSample;
 
 public final class R {
     public static final class attr {
