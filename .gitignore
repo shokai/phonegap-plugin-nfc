@@ -3,6 +3,6 @@
 .DS_Store
 db/*
 db*
-bin/*
+bin
 local.properties
 proguard.cfg
