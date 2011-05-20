@@ -44,6 +44,7 @@ index.html
 
     <script src='./phonegap.nfc.js' type='text/javascript' />
 
+get Tag ID
 
     document.addEventListener('deviceready', function(){
         window.plugins.nfc.id(
