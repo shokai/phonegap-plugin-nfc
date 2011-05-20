@@ -1,5 +1,4 @@
 
-
 document.addEventListener('deviceready', function(){
     window.plugins.nfc.id(
         function(tag){
